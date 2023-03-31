@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    height: 1000vh;
     overflow: hidden;
 }
 /*Header*/
@@ -10,7 +10,8 @@ body{
 .nav-bar{
     height: 4.5rem;
     color: #5B5858;
-    
+    z-index: 99;
+   
 }
 
    /*Gruppo DX*/
@@ -48,11 +49,6 @@ body{
 }
 
 
-main{
-    padding-top: 4.5rem;
-   
-}
-
 .icon_col_left{
     display: inline-block;
     width: 25px;
@@ -60,13 +56,39 @@ main{
    
 }
 
-.contents{
+/*MAIN*/
+
+.side_bar{
+    width: 13%;
     background-color: #051E34;
     background-image: url(../img/sidebar-bg.png);
-    height: calc(100vh - 4rem) ;
+    padding-top: 5rem;
+    padding-inline: 1rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
 
- 
+.side_bar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.central{
+    width: 87%;
+    padding-top: 4.5rem ;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.riga-blu{
+    background-color: blue;
+}
+
 
 
 
@@ -94,5 +116,6 @@ main{
     .logo_small{
         display: none;
     }
+   
 
 }

@@ -47,34 +47,74 @@
         
     </header>
      
-    <main>
-            <!--Riga unica per main-->
-            <div class="row">
-                <!--Colonna auto per side bar con media da tablet-->
-                <div class="col-auto ">
-                    
-                        <div class="contents fixed-bottom w-100  d-flex flex-column align-content-center justify-items-center justify-content-between p-4 ">
-                            <div class="start d-flex flex-column align-content-center justify-items-center">
-                                <a class="link-offset-2 link-underline link-underline-opacity-0 text-white "  href="#"><i class="fa-solid fa-house icon_col_left"></i><span class="no_mob">Home</span>
-                                     </a>
-                                <a class="link-offset-2 link-underline link-underline-opacity-0 text-white "  href="#"><i class="fa-solid fa-chart-simple icon_col_left"></i><span class="no_mob">Stats</span></a>
-                                <a class="link-offset-2 link-underline link-underline-opacity-0 text-white "  href="#"><i class="fa-solid fa-signal icon_col_left"></i><span class="no_mob">Signals</span></a>
-                            </div>
-                            <div>
-                                    <a class="link-offset-2 link-underline link-underline-opacity-0 text-white admin "  href="#"><i class="fa-solid fa-gear icon_col_left "></i><span class="no_mob">Admin</span></a>
+    <main class="d-flex ">
+            <!--SIDE_BAR-->
+
+
+            <div class="side_bar d-flex flex-column align-items-center justify-content-between">
+                <div class="start d-flex flex-column align-content-center">
+                    <a href="#"><i class="fa-solid fa-house icon_col_left"></i><span class="no_mob">Home</span>
+                         </a>
+                    <a class=""  href="#"><i class="fa-solid fa-chart-simple icon_col_left"></i><span class="no_mob">Stats</span></a>
+                    <a href="#"><i class="fa-solid fa-signal icon_col_left"></i><span class="no_mob">Signals</span></a>
+                </div>
+                <div>
+                </div>
+            </div>
+            
+             <div class="central">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="riga-blu bg-primary text-white p-2">
+                            <div class="row">
+                                <div class=" col col-12 col-12 col-md-4">
+                                    <div class="contents">
+                                       <h5>Boolean</h5> 
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-12 col-md-4">
+                                    <div class="contents">
+                                        <h5>
+                                            Studenti online negli ultimi 15 minuti
+                                        </h5>
+                                        <p>25</p>
+                                    </div>
+                                    
+                                </div>  
+
+                                <div class="col col-12 col-md-4">
+                                    <div class="contents">
+                                       
+                                             <h5>Nuovo studente </h5> 
+                                            <button class="btn btn-primary  border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body">
+        
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
 
-                       
-
-                        
-                    
+                    </div>
                 </div>
-                <!--Colonna maxi contenitore-->
-                <div class="col ">
-                    
-                </div>
+                
             </div>
+             
+             
+           
+            
+                      
+               
+         
         
     </main>
 
