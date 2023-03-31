@@ -1,7 +1,7 @@
-.body{
+body{
+    height: 100vh;
     overflow: hidden;
 }
-
 /*Header*/
 .bgk-header-nav{
     background-color: #F8F9FA;
@@ -10,6 +10,7 @@
 .nav-bar{
     height: 4.5rem;
     color: #5B5858;
+    
 }
 
    /*Gruppo DX*/
@@ -29,19 +30,43 @@
 .icons-group{
     width: 10%;
 }
+  /*Gruppo SX*/
 .img_logo{
-    width: 15%;
+    width: 10%;
 }
 .logo_small{
     width: 40px;
 }
-
+   /*Centro*/
 .barra_ricerca{
     width: 70%;
+    padding-top: .5rem;
+}
+.barra_ricerca .color{
+    background-color: #E5E5E5; 
+
 }
 
 
+main{
+    padding-top: 4.5rem;
+   
+}
 
+.icon_col_left{
+    display: inline-block;
+    width: 25px;
+    margin-right: .5rem;
+   
+}
+
+.contents{
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+    height: calc(100vh - 4rem) ;
+}
+
+ 
 
 
 
@@ -57,7 +82,11 @@
      .img_logo{
         display: none;
      }
+     .no_mob{
+        display: none;
+     }
 }
+
 
 
 @media screen and (min-width: 990px)
