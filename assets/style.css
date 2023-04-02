@@ -1,7 +1,4 @@
-body{
-    height: 1000vh;
-    overflow: hidden;
-}
+
 /*Header*/
 .bgk-header-nav{
     background-color: #F8F9FA;
@@ -24,12 +21,16 @@ body{
     width: 1.3rem;
     height: 1.3rem;
     border-radius: 2rem; 
-    text-align: center;
+    
     padding: .1rem;
 }
 
 .icons-group{
     width: 10%;
+}
+
+.icon_grey{
+    color: #5B5858;
 }
   /*Gruppo SX*/
 .img_logo{
@@ -53,7 +54,7 @@ body{
     display: inline-block;
     width: 25px;
     margin-right: .5rem;
-   
+    
 }
 
 /*MAIN*/
@@ -74,22 +75,61 @@ body{
     color: white;
     text-decoration: none;
 }
-
+.side_bar a:hover{
+    content: "";
+    background-color: rgba(255, 255, 255, .3);
+}
 
 .central{
     width: 87%;
+    height: 100%;
     padding-top: 4.5rem ;
-    background-color: red;
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
+    overflow-y: scroll;
 }
 .riga-blu{
-    background-color: blue;
+    background-color: #1B72E8;
+
+}
+.add{
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center ;
+}
+.list-blue{
+    list-style: none;
+    width: 90%;
+    margin: auto;
+}
+
+.btn-blue{
+    background-color: #165BBA;
+    
+}
+.icon_magg{
+    font-size: 10px; 
+}
+
+.student_counter{
+    font-size: 40px;
 }
 
 
+.code-red{
+    background-color: #F26551;
+    color: white;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4rem;
+    padding: .3rem;
+    padding-top: .4rem;
+    margin-right: 1.5rem;
+}
 
 
 
@@ -104,9 +144,10 @@ body{
      .img_logo{
         display: none;
      }
-     .no_mob{
+     .no-mob{
         display: none;
      }
+    
 }
 
 
@@ -116,6 +157,10 @@ body{
     .logo_small{
         display: none;
     }
-   
-
+   .no-dks{
+        display: none;
+    }
 }
+
+
+    
